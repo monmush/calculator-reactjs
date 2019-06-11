@@ -1,0 +1,86 @@
+h2{ 
+    margin: 1em;
+    text-transform: uppercase;
+}
+button{
+    background-color: white;
+}
+button:focus {
+    outline:0;
+}
+
+div {
+    padding: 1em;
+    font-weight: 600;
+    font-size: 1.2em;
+    display: block;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+div:hover{
+    cursor: pointer;
+}
+
+.container{
+    width: 35vw;
+
+}
+.row div {
+    text-align: center
+}
+
+#display{
+    background-color: #433437;
+    color: white;
+    text-align: right;
+    border-bottom: none;
+}
+#result{
+    background-color: #433437;
+    color: grey;
+    text-align: right;
+    font-size: .6em;
+    border-top: none;
+}
+
+.white{
+    background-color: white;
+}
+.red{
+    background-color: #F2274F;
+    width: 100%;
+}
+.col{
+    padding: 0;
+
+}
+
+button{
+    display: block;
+    padding: 1em;
+    border: none;
+}
+@media only screen and (max-width: 1075px) {
+    .container{
+        width: 60vw;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 50vw;
+    }
+    div{font-size: 1em;}
+    
+}
+@media only screen and (min-width:0px) and (max-width: 425px)  {
+    .container{
+        width: 80vw;
+    }
+    div{font-size: 1em;}
+    }
+
+
